@@ -1,0 +1,110 @@
+.topheader{
+      background-image: url("../images/img.jpg");
+      min-height: 600px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  .TopContainer{
+      margin-top: 200px;
+  }
+  
+  .TopTitle{
+      color: aliceblue;
+      font-size: 80px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
+  }
+  
+  .TopSubtitle{
+      font-size: 40px;
+      color: aliceblue;
+  }
+  
+  .TopOverlay{
+      min-height: 600px;
+      position: absolute;
+      width: 100%;
+      background-color: rgb(0, 0, 0, 0.2);
+  }
+  .card{
+    border-radius: 10%;
+     /* box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.281);  */
+    box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.3);
+    background: #fff;
+  } 
+  
+  .service{
+   width: 100%;
+   height: 500px;
+
+  }
+  .img{
+    width: 150px;
+    height: 160px;
+    margin: auto;
+
+  }
+  .pare{
+    padding-top: 140px;
+  }
+ 
+  /* .TopClient{
+      background-image: url("../images/khan.jpg");
+      min-height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  } */
+
+  .TopClient{
+      background-image: url("../images/img.jpg");
+      min-height: 600px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+  }
+
+  .total{
+    display: flex;
+    padding-top: 220px;
+    color: rgb(21, 6, 231);
+    
+  }
+  .right{
+    text-align: left;
+    padding-left: 20px ;
+  }
+
+  .border{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    height: 650px;
+  }
+
+  .disply{
+    display: inline-flex;
+    
+  }
+  .butto{
+    text-decoration: none;
+  }
+  .mar{
+     margin-left: 370px;  
+    /* padding: 0 auto;
+    margin: 0 auto; */
+  }
+  .ptag{
+   text-align: justify;
+  }
+
+  .FooterEnd{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(95, 191, 230);
+  }
