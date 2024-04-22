@@ -9,7 +9,7 @@ class ReProject extends Component {
         return (
             <Fragment>
                 <Container className='service'>
-                    <h2 className='text-center mt-5 '>RECENT PROJECTS</h2>
+                    <h2 className='text-center mt-5 text-primary text-uppercase'>RECENT PROJECTS</h2>
                     <Row>
                         <Col lg={4} md={6} sm={12}>
 

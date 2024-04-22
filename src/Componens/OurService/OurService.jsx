@@ -9,7 +9,7 @@ class OurSeervice extends Component {
         return (
             <Fragment>
                 <Container className='service'>
-                    <h2 className='text-center mt-5 '>Our Service</h2>
+                    <h1 className='text-center mt-5 text-primary text-uppercase'>Our Service</h1>
                     <Row>
                         <Col lg={4} md={6} sm={12}>
 

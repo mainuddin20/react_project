@@ -2,13 +2,14 @@ import React, { Component ,Fragment,} from 'react';
 import {Container,Row,Col, Card,} from 'react-bootstrap';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+import { IoShieldCheckmarkSharp } from "react-icons/io5";
 
 class TotalClient extends Component {
       render() {
             return (
                   <Fragment>
 
-                        <Container fluid className='TopClient p-0'>
+                        <Container fluid className='TopClient p-0 mt-5 '>
                         <div className='TopOverlay'>
                         <Container >
                               <Row >
@@ -74,10 +75,14 @@ class TotalClient extends Component {
 
                                     <Card style={{ width: '12rem' }}>
                                           <Card.Body>
-                                          <Card.Title>Card Title</Card.Title>
-                                          <Card.Subtitle className=" text-muted">Card Subtitle</Card.Subtitle>
+                                          <Card.Title className='text-center'>How i Work</Card.Title>
+                                          {/* <Card.Subtitle className=" text-muted">Card Subtitle</Card.Subtitle> */}
                                           <Card.Text>
-                                          Some quick example text to .
+                                         <p className='pagetac'> <IoShieldCheckmarkSharp className='iconcolor' /> Requirement Gathering </p>
+                                         <p className='pagetac'> <IoShieldCheckmarkSharp className='iconcolor' /> Sistem Analysis </p>
+                                         <p className='pagetac'> <IoShieldCheckmarkSharp className='iconcolor' /> Coding Testing </p>
+                                         <p className='pagetac'> <IoShieldCheckmarkSharp className='iconcolor' /> Implementation </p>
+
                                           </Card.Text>
                                           
                                          

@@ -28,7 +28,7 @@ constructor(){
 
         <Container>
 
-          <h1 className='text-center mt-5 '>Technology Used</h1>
+          <h1 className='text-center mt-5 text-primary text-uppercase'>Technology Used</h1>
 
           <Row>
             {/* <Col lg={6} md={6} sm={12}>
